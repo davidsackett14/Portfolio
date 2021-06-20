@@ -1,4 +1,10 @@
 import React from "react";
+import Header from "../components/header/header";
 export default function ProjectPage() {
-  return <div>words</div>;
+  return (
+    <div>
+      projects
+      <Header />
+    </div>
+  );
 }

@@ -1,4 +1,10 @@
 import React from "react";
+import Header from "../components/header/header";
 export default function HomePage() {
-  return <div>words</div>;
+  return (
+    <div>
+      home
+      <Header />
+    </div>
+  );
 }
