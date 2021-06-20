@@ -1,8 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ContactPage from "./pages/contact";
 import HomePage from "./pages/home";
 import ProjectPage from "./pages/projects";
+import "bootstrap/dist/css/bootstrap.css";
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
