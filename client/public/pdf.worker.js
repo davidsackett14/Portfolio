@@ -1,7 +1,7 @@
 import React from "react";
 import { Document, Page } from "react-pdf";
 
-import samplePDF from "../src/components/pdf/resume.pdf";
+import samplePDF from "/resume.pdf";
 
 export default function Test() {
   return (

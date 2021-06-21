@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AllPagesPDFViewer from "../../components/pdf/all-pages";
-import samplePDF from "../pdf/resume.pdf"
+import samplePDF from "../../resume.pdf";
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
