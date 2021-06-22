@@ -13,7 +13,7 @@ export default function AllPages(props) {
   return (
     <Document
       file={pdf}
-      options={{ workerSrc: "/pdf.worker.js" }}
+      options={{ workerSrc: "../../../" }}
       onLoadSuccess={onDocumentLoadSuccess}
     >
       {Array.from(new Array(numPages), (el, index) => (

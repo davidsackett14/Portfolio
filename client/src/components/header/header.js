@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AllPagesPDFViewer from "../../components/pdf/all-pages";
-import samplePDF from "../../resume.pdf";
+import AllPagesPDFViewer from "../pdf/all-pages";
+import samplePDF from "../header/resume.pdf";
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -13,15 +13,14 @@ function Header() {
         <Link to="/projects">Projects</Link>
       </span>
       <span className="navbar-brand">
-      <div className="all-page-container">
-        <a href={<AllPagesPDFViewer pdf={samplePDF}/>}>resume</a>
-      </div>
+        <div className="all-page-container">
+          <a href={<AllPagesPDFViewer pdf={samplePDF} />}>resume</a>
+        </div>
       </span>
-      
+
       <span className="navbar justify-content-right ">
-              <a href="tel:+1-555-555-1212">555-555-1212</a>
+        <a href="tel:+1-385-226-7667">385-226-7667</a>
       </span>
-     
     </nav>
   );
 }
