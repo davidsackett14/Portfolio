@@ -8,21 +8,18 @@ const projectArray = projects;
 export default function ProjectPage() {
    
   return (
-   <div>
-     <Header />
+    <div>
+      <Header />
       {projectArray.map(project => (
-            <Project
-              
-              image={project.image}
-              title={project.title}
-              desc={project.desc}
-              deploy={project.deploy}
-              repo={project.repo}
-            />
-          ))}
+        <Project
+          image={project.image}
+          title={project.title}
+          desc={project.desc}
+          deploy={project.deployed}
+          repo={project.repo}
+        />
+      ))}
       <Footer />
-   </div>
-     
-    
+    </div>
   );
 }

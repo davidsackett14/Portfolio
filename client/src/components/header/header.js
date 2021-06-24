@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AllPagesPDFViewer from "../pdf/all-pages";
-import samplePDF from "../header/resume.pdf";
+
+
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -13,9 +13,12 @@ function Header() {
         <Link to="/projects">Projects</Link>
       </span>
       <span className="navbar-brand">
-        <div className="all-page-container">
-          <a href={<AllPagesPDFViewer pdf={samplePDF} />}>resume</a>
-        </div>
+        <a
+          href="https://github.com/davidsackett14/Portfolio/raw/main/client/src/components/header/resume.pdf"
+          download
+        >
+          download resume
+        </a>
       </span>
 
       <span className="navbar justify-content-right ">
