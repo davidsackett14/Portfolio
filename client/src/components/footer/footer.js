@@ -6,14 +6,10 @@ function Footer() {
     <div>
       <footer
         className="text-center text-white"
-        style={{ backgroundColor: "f1f1f1" }}
+        style={{ backgroundColor: "lightblue" }}
       >
         <div className="container pt-4">
           <section className="mb-4">
-            <h6 className="text-center text-black">
-              Please visit me at Instagram, LinkedIn, GitHub, or reach out by
-              E-mail
-            </h6>
             <div
               className="text-center text-dark p-3"
               style={{ backgroundColor: (0, 0, 0, 0.2) }}

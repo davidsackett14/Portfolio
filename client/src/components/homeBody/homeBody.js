@@ -1,11 +1,23 @@
 import React from "react";
-import Images from "../../images/linkedInPic.jpg";
+import Images from "../../images/rodin.jpg";
 
 export default function AboutMe() {
   const profilePic = Images;
   return (
     <div>
-      <div className="clearfix bg-light p-4">
+      <div
+      
+      
+      
+           className="clearfix  p-4 text-dark"
+    
+    
+    
+                 style={{    backgroundColor:    "silver"    }}
+      
+      
+      
+      >
         <img
           src={profilePic}
           className="col-md-2 float-md-end mb-3 ms-md-3"
@@ -13,7 +25,7 @@ export default function AboutMe() {
         />
 
         <p>
-          Hello, let me introduce myself. I am firstly a student of life and in
+          <i style={{fontFamily:"cursive", fontWeight:"bold", fontSize:22,}}>Hello</i>, let me introduce myself. I am a student of life and in
           this season of learning I am exploring the world of web development. I
           have ran an HVAC company for the last 5 of my 12 years in the
           industry. I love architecture, building, and creation which has drawn
@@ -22,10 +34,10 @@ export default function AboutMe() {
         </p>
 
         <p>
-          I am currently attentding the University of Utah's coding bootcamp
+          I am currently attending the University of Utah's coding bootcamp
           program. I am familiar with and have used the following languages and
           technologies:
-          <p>
+          <p style={{fontSize:17, fontWeight:7}}>
             <div className="row">
               <ul className="col-sm-4 p-2">
                 <li>HTML</li> <li>CSS</li>
@@ -61,7 +73,7 @@ export default function AboutMe() {
 
         <p>
           I am looking forward to building new apps in a production environment
-          but also as a personal endevour to further enrich my skills using more
+          as well as a personal endevour to further enrich my skills using more
           languages and and technologies.
         </p>
       </div>
