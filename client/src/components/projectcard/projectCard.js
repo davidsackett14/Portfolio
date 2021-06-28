@@ -4,10 +4,10 @@ import React from "react";
 function Project(props) {
   return (
     <div
-      className="row"
+      className="row "
       style={{ padding: "3px", backgroundColor: "lightgray" }}
-    >
-      <div className="col-sm-6">
+    ><div className="row p-2 border bg-dark"> 
+      <div className="col-sm-6 ">
         <div className="card">
           <div className="card-body">
             <img
@@ -43,6 +43,7 @@ function Project(props) {
             </a>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
