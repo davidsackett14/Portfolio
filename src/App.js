@@ -17,19 +17,17 @@ import "bootstrap/dist/css/bootstrap.css";
 export default function App() {
   return (
     <Router>
-   
-        <Switch>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
-          <Route path="/projects">
-            <ProjectPage />
-          </Route>
-          <Route path="/contact">
-            <ContactPage />
-          </Route>
-        </Switch>
-      
+      <Switch>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
+        <Route path="/projects">
+          <ProjectPage />
+        </Route>
+        <Route path="/contact">
+          <ContactPage />
+        </Route>
+      </Switch>
     </Router>
   );
 }

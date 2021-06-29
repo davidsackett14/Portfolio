@@ -2,11 +2,10 @@ import React from "react";
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Project from "../components/projectcard/projectCard";
-import projects from "../projects.json";
+import projects from "../../src/projects.json";
 
 const projectArray = projects;
 export default function ProjectPage() {
-   
   return (
     <div>
       <Header />
