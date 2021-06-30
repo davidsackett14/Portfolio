@@ -18,14 +18,14 @@
       "desc": "Job Aid is a simple user friendly CRM created to help small businesses manage customer information to better help them retain customers and create marketing campaigns based off historical job acquisition.",
       "deployed": "https://whispering-eyrie-33529.herokuapp.com/",
       "repo": "https://github.com/Koffidanh/job-aid",
-      "image": "https://raw.githubusercontent.com/davidsackett14/Portfolio/main/client/src/images/screen3.png"
+      "image": "https://raw.githubusercontent.com/davidsackett14/Portfolio/main/src/images/screen3.png"
     },
     {
       "title": "Trail Helper",
       "desc": "A recreation app that allows the user to search by state and activity for state parks using an ajax api call. the app generates cards for each of the results and displays a picture, description, and link to the state parks website.",
       "deployed": "https://davidsackett14.github.io/TrailHelperSite/",
       "repo": "https://github.com/davidsackett14/TrailHelperSite",
-      "image": "https://raw.githubusercontent.com/davidsackett14/Portfolio/main/client/src/images/Web%20capture_24-6-2021_85323_davidsackett14.github.io.jpeg"
+      "image": "https://raw.githubusercontent.com/davidsackett14/Portfolio/main/src/images/Web%20capture_24-6-2021_85323_davidsackett14.github.io.jpeg"
     },
     {
       "title": "Weather Gen App",
