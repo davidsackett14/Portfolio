@@ -10,7 +10,7 @@ export default function AboutMe() {
         style={{ backgroundColor: "silver" }}
       >
         <img
-          src="https://raw.githubusercontent.com/davidsackett14/Portfolio/main/src/images/rodin.jpg"
+          src={profilePic}
           className="col-md-2 float-md-end mb-3 ms-md-3"
           alt="..."
         />
