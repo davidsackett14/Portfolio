@@ -19,7 +19,7 @@
   
   ## Installation
   
-  This program is deployed and can be viewed here ![link](https://github.com/davidsackett14/Portfolio)
+  This program is deployed and can be viewed here [React Portfolio](https://davidsackett14.github.io/Portfolio/#/)
   
   
   ## Usage 
