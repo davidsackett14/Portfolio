@@ -30,7 +30,7 @@ function Footer() {
           <section className="mb-4">
             <a
               target="_blank"
-              href="https://www.instagram.com/dsi_hvac/"
+              href={"https://www.instagram.com/dsi_hvac/"}
               className="link-primary btn btn-link btn-floating btn-lg text-dark m-1"
               rel="noreferrer"
             >
