@@ -18,31 +18,42 @@ function Footer() {
               E-mail
             </div>
           </section>
+    <section className="mb-4">
+            <div
+              className="text-center text-dark p-3"
+              style={{ backgroundColor: (0, 0, 0, 0.2) }}
+            >
+              Please visit me at Instagram, LinkedIn, GitHub, or reach out by
+              E-mail
+            </div>
+          </section>
           <section className="mb-4">
-            <Link
-              className="btn btn-link btn-floating btn-lg text-dark m-1"
-              to="https://www.instagram.com/dsi_hvac/"
-              role="button"
-              data-mdb-ripple-color="dark"
+            <a
+              target="_blank"
+              href="https://www.instagram.com/dsi_hvac/"
+              className="link-primary btn btn-link btn-floating btn-lg text-dark m-1"
+              rel="noreferrer"
             >
               <i className="fa fa-instagram"></i>
-            </Link>
-            <Link
-              className="btn btn-link btn-floating btn-lg text-dark m-1"
-              to="https://www.linkedin.com/in/david-sackett-5324a911b/"
-              role="button"
-              data-mdb-ripple-color="dark"
+            </a>
+
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/david-sackett-5324a911b/"
+              className="link-primary btn btn-link btn-floating btn-lg text-dark m-1"
+              rel="noreferrer"
             >
               <i className="fa fa-linkedin"></i>
-            </Link>
-            <Link
-              className="btn btn-link btn-floating btn-lg text-dark m-1"
-              to="https://github.com/davidsackett14"
-              role="button"
-              data-mdb-ripple-color="dark"
+            </a>
+
+            <a
+              target="_blank"
+              href="https://github.com/davidsackett14"
+              className="link-primary btn btn-link btn-floating btn-lg text-dark m-1"
+              rel="noreferrer"
             >
               <i className="fa fa-github"></i>
-            </Link>
+            </a>
             <a
               target="_blank"
               href="mailto:david@dsihvac.com"
